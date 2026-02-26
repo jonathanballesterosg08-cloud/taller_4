@@ -1,0 +1,27 @@
+¿Cuál curva crece más rápido?
+
+respuesta
+
+O(n^)2- logaritmica
+entre mas datos procese mas se dipara y no es constante
+
+¿Cuál casi no cambia?
+
+O(1)- constante. ya que su comportamiento es constante
+
+¿Por qué O(n²) se vuelve inviable rápidamente?
+
+porque usa un proceso mas pesado y mas complejo entre mas datos hayan
+
+
+justificacion parte 2 del taller
+
+| n    | O(1)  | O(n)    | O(n²)    |
+| ---- | ----- | ------- | -------- |
+| 100  | igual | pequeño | rápido   |
+| 1000 | igual | 10× más | 100× más |
+| 2000 | igual | 20× más | 400× más |
+
+
+Se observa que el algoritmo 1 mantiene un tiempo constante, el algoritmo 2 crece proporcionalmente
+a n, y el algoritmo 3 aumenta de forma cuadrática,confirmando su complejidad teórica.
