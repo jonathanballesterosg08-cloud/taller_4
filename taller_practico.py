@@ -14,7 +14,7 @@ def algoritmo_3(n):
 
 
 # Algoritmo 1
-lista = list(range(2000))
+lista = list(range(20000))
 
 inicio = time.perf_counter()
 obtener_elemento(lista)
@@ -24,14 +24,14 @@ print("Tiempo algoritmo 1:", fin - inicio, "segundos")
 
 # Algoritmo 2
 inicio = time.perf_counter()
-algoritmo_2(2000)
+algoritmo_2(20000)
 fin = time.perf_counter()
 print("Tiempo algoritmo 2:", fin - inicio, "segundos")
 
 
 # Algoritmo 3
 inicio = time.perf_counter()
-algoritmo_3(2000) 
+algoritmo_3(20000) 
 fin = time.perf_counter()
 print("Tiempo algoritmo 3:", fin - inicio, "segundos")
 
